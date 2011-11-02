@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--核心UI配置文件-->
+<config>
+
+	<!--加载条-->
+	<loadBar properties='{"x":350, "y":270}' >
+		<modalBG name="modalBG" properties='{"alpha":0.6}' />
+		<displayObject name="view" definition="mainUI.view.LoadBar" />
+	</loadBar>
+	
+</config>

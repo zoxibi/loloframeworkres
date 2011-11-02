@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--组件样式配置文件-->
+<config>
+	<!--文本的默认样式-->
+	<style name="textField" style='{
+		"font"		: "宋体",
+		"size"		: 12,
+		"color"		: "0x333333",
+		"stroke"	: "0x282818",
+		"align"		: "left",
+		"bold"		: false,
+		"underline"	: false,
+		"leading"	: 3
+	}' />
+	
+	<!--富文本的默认样式-->
+	<style name="richText" style='{
+		"fontFamily": "宋体,Arial",
+		"size"		: 12,
+		"color"		: "0x333333",
+		"stroke"	: "0x282818",
+		"leading"	: "150%",
+		"linkNormalFormat"	: {"color":"0x333333", "textDecoration":"underline"},
+		"linkHoverFormat"	: {"color":"0x666666", "textDecoration":"underline"},
+		"linkActiveFormat"	: {"color":"0xFF0000", "textDecoration":"underline"}
+	}' />
+	
+	<!--显示文本的默认样式-->
+	<style name="label" style='{
+		"moreText"	: "..."
+	}' />
+	
+	<!--提示文本的默认样式-->
+	<style name="alertText" style='{
+		"color"					: "0x00CC00",
+		"colorList"				: ["0x00CC00", "0xCC0000"],
+		"showDelay"				: 0,
+		"hideDelay"				: 2,
+		"showEffectDuration"	: 0.5,
+		"hideEffectDuration"	: 0.5
+	}' />
+	
+	<!--数字文本的默认样式-->
+	<style name="numberText" style='{
+		"originalColor"	: "0xFFFFFF",
+		"upColor"		: "0x24B052",
+		"downColor"		: "0xB13F23",
+		"delay"			: 0.1
+	}' />
+	
+	<!--工具提示的默认样式-->
+	<style name="toolTip" style='{
+		"background"	: "skin.ToolTip$bg",
+		"labelMaxWidth"	: 150,
+		
+		"showDelay"				: 0.4,
+		"hideDelay"				: 3.5,
+		"showEffectDuration"	: 0.3,
+		"hideEffectDuration"	: 0.2,
+		
+		"paddingMouseX"			: -1,
+		"paddingMouseY"			: 22,
+		
+		"labelPaddingTop"		: 4,
+		"labelPaddingBottom"	: 4,
+		"labelPaddingLeft"		: 5,
+		"labelPaddingRight"		: 4,
+		"labelStyle"			: {"color":"0xFFFFFF"}
+	}' />
+	
+	<!--按钮1-->
+	<style name="button1" style='{
+		"skin"			: "skin.Button1",
+		"labelStyle"	: {	"upStyle":{"color":"0xE0E0E0"},
+							"overStyle":{"color":"0xFFFFCC"},
+							"downStyle":{"color":"0xCCCCCC"},
+							"disabledStyle":{"color":"0x666666"} },
+		
+		"labelPaddingTop"		: 5,
+		"labelPaddingBottom"	: 5,
+		"labelPaddingLeft"		: 10,
+		"labelPaddingRight"		: 10,
+		
+		"hitAreaPaddingTop"		: 2,
+		"hitAreaPaddingBottom"	: 2,
+		"hitAreaPaddingLeft"	: 2,
+		"hitAreaPaddingRight"	: 2
+	}' />
+	
+	<!--多选框1-->
+	<style name="checkBox1" style='{
+		"skin"			: "skin.CheckBox1",
+		"labelStyle"	: {	"upStyle":{"color":"0xFFCC66"},
+							"overStyle":{"color":"0xFFFFFF"},
+							"downStyle":{"color":"0xCCCCCC"},
+							"disabledStyle":{"color":"0x666666"},
+							"selectedStyle":{"color":"0xCCCCCC"} },
+		
+		"labelPaddingTop"		: -1,
+		"labelPaddingLeft"		: 16
+	}' />
+	
+	<!--单选框1-->
+	<style name="radioButton1" style='{
+		"skin"			: "skin.RadioButton1",
+		"labelStyle"	: {	"upStyle":{"color":"0xFFCC66"},
+							"overStyle":{"color":"0xFFFFFF"},
+							"downStyle":{"color":"0xCCCCCC"},
+							"disabledStyle":{"color":"0x666666"},
+							"selectedStyle":{"color":"0xCCCCCC"} },
+		
+		"labelPaddingTop"		: -1,
+		"labelPaddingLeft"		: 16
+	}' />
+	
+	<!--垂直滚动条1-->
+	<style name="vScrollBar1" style='{
+		"trackSkin"		: "skin.VScrollBar1$Track",
+		"thumbSkin"		: "skin.VScrollBar1$Thumb",
+		"upArrowSkin"	: "skin.VScrollBar1$UpArrow",
+		"downArrowSkin"	: "skin.VScrollBar1$DownArrow",
+		
+		"autoThumbSize"	: true,
+		"thumbMinSize"	: 20
+	}' />
+	
+	<!--水平滚动条1-->
+	<style name="hScrollBar1" style='{
+		"trackSkin"		: "skin.HScrollBar1$Track",
+		"thumbSkin"		: "skin.HScrollBar1$Thumb",
+		"upArrowSkin"	: "skin.HScrollBar1$UpArrow",
+		"downArrowSkin"	: "skin.HScrollBar1$DownArrow",
+		
+		"autoThumbSize"	: true,
+		"thumbMinSize"	: 20
+	}' />
+</config>
