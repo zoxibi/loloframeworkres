@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--模块配置文件-->
+<config>
+	<version>11.01.17.1</version><!--游戏当前版本号-->
+	
+	<language url="assets/{resVersion}/xml/core/Language" version="1" /><!--语言包-->
+	<style url="assets/{resVersion}/xml/core/Style.xml" version="1" /><!--组件样式配置文件-->
+	<uiConfig url="assets/{resVersion}/xml/core/UIConfig.xml" version="1" /><!--用户界面配置文件-->
+	
+	<enterMovie url="assets/{resVersion}/swf/core/EnterMovie.swf" version="1" /><!--进场动画（开发商信息）-->
+	<component url="assets/{resVersion}/swf/core/Component.swf" version="1" /><!--组件皮肤-->
+	<game url="Game.swf" version="1" /><!--游戏核心-->
+	<mainUIConfig url="assets/{resVersion}/xml/core/MainUI.xml" version="1" /><!--核心UI配置-->
+	<mainUIView url="assets/{resVersion}/swf/core/MainUI.swf" version="1" /><!--核心UI界面-->
+	
+	<!--测试场景模块-->
+	<testSceneConfig url="assets/{resVersion}/xml/module/TestScene.xml" version="1" />
+	<testSceneView url="assets/{resVersion}/swf/module/TestScene.swf" version="1" />
+	<testSceneModule url="game/module/testScene/view/TestScene.swf" version="1" />
+	
+</config>
