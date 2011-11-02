@@ -11,6 +11,7 @@
 									"pageTextProp"	: { "x":170, "y":6, "width":40, "height":16, "autoSize":"none", "align":"center", "color":"0xFFFFFF" }
 	}' />
 	
+	
 	<scrollBar name="vsb" target="list" properties='{"x":600, "y":100, "styleName":"vScrollBar1", "size":100, "disArea":{"x":100, "y":100, "width":412, "height":262}}' />
 	<scrollBar name="hsb" target="list" properties='{"x":600, "y":220, "styleName":"hScrollBar1", "direction":"horizontal", "size":100, "disArea":{"x":100, "y":100, "width":412, "height":262}}' />
 </config>
