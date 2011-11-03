@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!--测试场景配置文件-->
 <config>
 	<list name="list" properties='{"x":100, "y":100, "columnCount":16, "rowCount":999, "horizontalGap":3, "verticalGap":3}' />
@@ -10,7 +10,6 @@
 									"lastBtnProp"	: { "x":300, "width":80, "height":28, "styleName":"button1", "label":"尾页" },
 									"pageTextProp"	: { "x":170, "y":6, "width":40, "height":16, "autoSize":"none", "align":"center", "color":"0xFFFFFF" }
 	}' />
-	
 	
 	<scrollBar name="vsb" target="list" properties='{"x":600, "y":100, "styleName":"vScrollBar1", "size":100, "disArea":{"x":100, "y":100, "width":412, "height":262}}' />
 	<scrollBar name="hsb" target="list" properties='{"x":600, "y":220, "styleName":"hScrollBar1", "direction":"horizontal", "size":100, "disArea":{"x":100, "y":100, "width":412, "height":262}}' />
