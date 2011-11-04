@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--聊天模块配置文件-->
+<config>
+	<displayObject definition="chat.view.Background" />
+	
+	<displayObject name="changeChannelBtn" definition="chat.btn.ChangeChannel" properties='{"x":5, "y":574}' />
+	<displayObject name="changeSizeBtn" definition="chat.btn.ChangeSize" properties='{"x":5, "y":556}' />
+	
+</config>
