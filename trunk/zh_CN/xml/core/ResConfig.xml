@@ -18,4 +18,8 @@
 	<testSceneView url="assets/{resVersion}/swf/module/TestScene.swf" version="1" />
 	<testSceneModule url="game/module/testScene/view/TestScene.swf" version="1" />
 	
+	<!--聊天模块-->
+	<chatConfig url="assets/{resVersion}/xml/module/Chat.xml" version="1" />
+	<chatView url="assets/{resVersion}/swf/module/Chat.swf" version="1" />
+	<chatModule url="game/module/chat/view/Chat.swf" version="1" />
 </config>
