@@ -13,18 +13,6 @@
 		"leading"	: 3
 	}' />
 	
-	<!--富文本的默认样式-->
-	<style name="richText" style='{
-		"fontFamily": "宋体,Arial",
-		"size"		: 12,
-		"color"		: "0x333333",
-		"stroke"	: "0x282818",
-		"leading"	: "150%",
-		"linkNormalFormat"	: {"color":"0x333333", "textDecoration":"underline"},
-		"linkHoverFormat"	: {"color":"0x666666", "textDecoration":"underline"},
-		"linkActiveFormat"	: {"color":"0xFF0000", "textDecoration":"underline"}
-	}' />
-	
 	<!--显示文本的默认样式-->
 	<style name="label" style='{
 		"moreText"	: "..."
@@ -46,6 +34,17 @@
 		"upColor"		: "0x24B052",
 		"downColor"		: "0xB13F23",
 		"delay"			: 0.1
+	}' />
+	
+	<!--富文本的默认样式-->
+	<style name="richText" style='{
+		"fontFamily": "宋体,Arial",
+		"size"		: 12,
+		"color"		: "0x333333",
+		"leading"	: "150%",
+		"linkNormalFormat"	: {"color":"0x333333"},
+		"linkHoverFormat"	: {"color":"0x666666", "textDecoration":"underline"},
+		"linkActiveFormat"	: {"color":"0xFF0000", "textDecoration":"underline"}
 	}' />
 	
 	<!--工具提示的默认样式-->
