@@ -67,6 +67,29 @@
 		"labelStyle"			: {"color":"0xFFFFFF"}
 	}' />
 	
+	<!--弹出提示框默认样式-->
+	<style name="alert" style='{
+		"background"		: "skin.Alert$bg",
+		"dragAreaPadding"	: {"left":2, "right":2, "top":2, "height":18},
+		
+		"minWidth"	: 160,
+		"minHeight"	: 100,
+		"maxWidth"	: 200,
+		"maxHeight"	: 120,
+		
+		"labelProp"			: {"color":"0xFFFFFF", "multiline":true},
+		"labelPaddingLeft"	: 10,
+		"labelPaddingRight"	: 10,
+		"labelPaddingTop"	: 20,
+		"labelPaddingBottom": 10,
+		
+		"buttonProp"			: {"autoSize":true},
+		"buttonStyleName"		: "button1",
+		"defaultButtonStyleName": "button1",
+		"buttonGap"				: 5,
+		"buttonPaddingBottom"	: 10
+	}' />
+	
 	<!--按钮1-->
 	<style name="button1" style='{
 		"skin"			: "skin.Button1",

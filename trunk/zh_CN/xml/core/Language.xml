@@ -47,4 +47,12 @@
 	<item id="030203">v:</item>
 	<item id="030204">v</item>
 	
+	<!--Alert-->
+	<item id="030301">确定</item>
+	<item id="030302">取消</item>
+	<item id="030303">确定</item>
+	<item id="030304">取消</item>
+	<item id="030305">关闭</item>
+	<item id="030306">返回</item>
+	
 </language>
