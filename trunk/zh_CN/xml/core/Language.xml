@@ -36,11 +36,9 @@
 	<item id="020201">测试场景配置</item>
 	<item id="020202">测试场景界面</item>
 	<item id="020203">测试场景模块</item>
-	
-	<!--模块-->
-	<item id="020301">聊天配置</item>
-	<item id="020302">聊天界面</item>
-	<item id="020303">聊天模块</item>
+	<item id="020204">登录场景配置</item>
+	<item id="020205">登录场景界面</item>
+	<item id="020206">登录场景模块</item>
 	
 <!--时间单位-->
 	<item id="030101">天</item>
