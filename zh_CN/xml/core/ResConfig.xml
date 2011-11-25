@@ -13,13 +13,14 @@
 	<mainUIConfig url="assets/{resVersion}/xml/core/MainUI.xml" version="1" /><!--核心UI配置-->
 	<mainUIView url="assets/{resVersion}/swf/core/MainUI.swf" version="1" /><!--核心UI界面-->
 	
-	<!--测试场景模块-->
+	<!--登录场景-->
+	<loginSceneConfig url="assets/{resVersion}/xml/module/LoginScene.xml" version="1" />
+	<loginSceneView url="assets/{resVersion}/swf/module/LoginScene.swf" version="1" />
+	<loginSceneModule url="game/module/loginScene/view/LoginScene.swf" version="1" />
+	
+	<!--测试场景-->
 	<testSceneConfig url="assets/{resVersion}/xml/module/TestScene.xml" version="1" />
 	<testSceneView url="assets/{resVersion}/swf/module/TestScene.swf" version="1" />
 	<testSceneModule url="game/module/testScene/view/TestScene.swf" version="1" />
 	
-	<!--聊天模块-->
-	<chatConfig url="assets/{resVersion}/xml/module/Chat.xml" version="1" />
-	<chatView url="assets/{resVersion}/swf/module/Chat.swf" version="1" />
-	<chatModule url="game/module/chat/view/Chat.swf" version="1" />
 </config>

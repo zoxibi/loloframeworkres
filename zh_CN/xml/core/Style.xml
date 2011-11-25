@@ -98,15 +98,15 @@
 							"downStyle":{"color":"0xCCCCCC"},
 							"disabledStyle":{"color":"0x666666"} },
 		
-		"labelPaddingTop"		: 5,
-		"labelPaddingBottom"	: 5,
-		"labelPaddingLeft"		: 10,
-		"labelPaddingRight"		: 10,
+		"labelPaddingTop"		: 1,
+		"labelPaddingBottom"	: 1,
+		"labelPaddingLeft"		: 1,
+		"labelPaddingRight"		: 1,
 		
-		"hitAreaPaddingTop"		: 2,
-		"hitAreaPaddingBottom"	: 2,
-		"hitAreaPaddingLeft"	: 2,
-		"hitAreaPaddingRight"	: 2
+		"hitAreaPaddingTop"		: 1,
+		"hitAreaPaddingBottom"	: 1,
+		"hitAreaPaddingLeft"	: 1,
+		"hitAreaPaddingRight"	: 1
 	}' />
 	
 	<!--多选框1-->
