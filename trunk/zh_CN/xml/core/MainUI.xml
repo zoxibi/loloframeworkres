@@ -13,9 +13,9 @@
 		<modalBG name="modalBG" />
 		<displayObject name="view" definition="mainUI.view.RequestModal" />
 		<button name="closeBtn" properties='{"x":30, "y":50, "width":60, "styleName":"button1", "labelID":"030305"}' />
+		
+		<!--公用AlerText属性-->
+		<alertText patent="null" properties='{"key":"serviceError", "color":"0xCC3300", "alertLayerShow":true}' /> 
+		<alertText parent="null" properties='{"key":"common", "color":"0x00CC33", "alertLayerShow":true}' /> 
 	</requestModal>
-	
-	<!--公用AlerText属性-->
-	<alertText patent="null" properties='{"key":"serviceError", "color":"0xCC3300", "alertLayerShow":true}' /> 
-	<alertText parent="null" properties='{"key":"common", "color":"0x00CC33", "alertLayerShow":true}' /> 
 </config>
