@@ -6,7 +6,6 @@
 		"font"		: "宋体",
 		"size"		: 12,
 		"color"		: "0x333333",
-		"stroke"	: "0x282818",
 		"align"		: "left",
 		"bold"		: false,
 		"underline"	: false,
