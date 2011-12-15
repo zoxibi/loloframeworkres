@@ -92,10 +92,10 @@
 	<!--按钮1-->
 	<style name="button1" style='{
 		"skin"			: "skin.Button1",
-		"labelStyle"	: {	"upStyle":{"color":"0xE0E0E0"},
-							"overStyle":{"color":"0xFFFFCC"},
-							"downStyle":{"color":"0xCCCCCC"},
-							"disabledStyle":{"color":"0x666666"} },
+		"labelStyle"	: {	"upStyle":{"color":"0x333333"},
+							"overStyle":{"color":"0x666666"},
+							"downStyle":{"color":"0x000000"},
+							"disabledStyle":{"color":"0x999999"} },
 		
 		"labelPaddingTop"		: 1,
 		"labelPaddingBottom"	: 1,
