@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<!--资源库语言、版本-->
+	<resVersion value="zh_CN" />
+	
+	<!--socket后端服务器地址-->
+	<socketServiceUrl value="127.0.0.1:1208" />
+	<!--http后端服务器地址-->
+	<httpServiceUrl value="http://127.0.0.1/service/" />
+	<!--后端服务器地址列表，登录界面用（测试阶段）-->
+	<serviceList value="127.0.0.1:1208,127.0.0.2:1208" />
+	
+	<!--当前运行环境["debug", "release"]-->
+	<bin value="debug" />
+	
+	<!--是否启用登录-->
+	<login value="true" />
+	
+	<!--通信数据是否需要解压缩-->
+	<decompress value="false" />
+	
+	<!--资源的url，release环境需要删除-->
+	<resUrl value="http://127.0.0.1/framework_res/" />
+	
+	<!--语言包类型，release环境设置成"zip"-->
+	<languageType value="xml" />
+</config>
