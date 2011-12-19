@@ -2,21 +2,24 @@
 <!--登录场景配置文件-->
 <config properties='{"x":370, "y":200}' >
 	<displayObject definition="loginScene.view.Background" />
-	<label properties='{"y":13, "width":260, "height":20, "autoSize":"none", "align":"center", "size":14, "bold":true, "color":"0xFFFFCC", "text":"注册和登录"}' />
-	<label properties='{"x":25, "y":50, "size":14, "color":"0xFFFFFF", "text":"帐号："}' />
-	<label properties='{"x":25, "y":80, "size":14, "color":"0xFFFFFF", "text":"密码："}' />
-	<label properties='{"x":25, "y":110, "size":14, "color":"0xFFFFFF", "text":"后端："}' />
-	<inputText name="usernameIT" properties='{"x":67, "y":48, "width":155, "height":20, "size":14, "border":true, "color":"0x0", "stroke":"none"}' />
-	<inputText name="passwordIT" properties='{"x":67, "y":78, "width":155, "height":20, "size":14, "border":true, "color":"0x0", "stroke":"none", "displayAsPassword":true}' />
+	<label properties='{"y":13, "width":260, "height":20, "autoSize":"none", "align":"center", "size":14, "bold":true, "color":"0xFFFFCC", "stroke":"0x302010", "text":"注册和登录"}' />
+	<label properties='{"x":25, "y":50, "size":14, "color":"0xFFFFFF", "stroke":"0x302010", "text":"帐号："}' />
+	<label properties='{"x":25, "y":80, "size":14, "color":"0xFFFFFF", "stroke":"0x302010", "text":"密码："}' />
+	<label properties='{"x":25, "y":110, "size":14, "color":"0xFFFFFF", "stroke":"0x302010", "text":"后端："}' />
+	<inputText name="usernameIT" properties='{"x":67, "y":48, "width":155, "height":20, "size":14, "border":true, "color":"0x0"}' />
+	<inputText name="passwordIT" properties='{"x":67, "y":78, "width":155, "height":20, "size":14, "border":true, "color":"0x0", "displayAsPassword":true}' />
 	<button name="connBtn" properties='{"x":202, "y":108, "width":20, "styleName":"button1", "label":">"}' />
-	<button name="registerBtn" properties='{"x":115, "y":138, "width":50, "styleName":"button1", "label":"注册"}' />
-	<button name="loginBtn" properties='{"x":172, "y":138, "width":50, "styleName":"button1", "label":"登录"}' />
+	<group name="typeGroup" />
+	<radioButton group="typeGroup" properties='{"x":67, "y":139, "styleName":"radioButton1", "label":"SOCKET", "data":"socket", "labelProp":{"stroke":"0x302010"}}' />
+	<radioButton group="typeGroup" properties='{"x":147, "y":139, "styleName":"radioButton1", "label":"HTTP", "data":"http", "labelProp":{"stroke":"0x302010"}}' />
+	<button name="registerBtn" properties='{"x":115, "y":173, "width":50, "styleName":"button1", "label":"注册"}' />
+	<button name="loginBtn" properties='{"x":172, "y":173, "width":50, "styleName":"button1", "label":"登录"}' />
 	
 	<!--后端选择组合框-->
 	<comboBox name="serviceCMB" properties='{"x":67, "y":108, "listBGPaddingHeight":2}' >
 		<baseButton name="arrowBtn" properties='{"width":130, "skin":"skin.ComboBox$ArrowBtn"}' />
-		<inputText name="inputText" properties='{"x":3, "y":3, "width":102, "height":17, "color":"0x333333", "stroke":"none"}' />
-		<label name="labelText" properties='{"x":3, "y":3, "width":102, "autoTooltip":false, "color":"0x333333", "mouseEnabled":false, "stroke":"none"}' />
+		<inputText name="inputText" properties='{"x":3, "y":3, "width":102, "height":17, "color":"0x333333"}' />
+		<label name="labelText" properties='{"x":3, "y":3, "width":102, "autoTooltip":false, "color":"0x333333", "mouseEnabled":false}' />
 		<displayObject name="listBG" definition="skin.ComboBox$ListBG" properties='{"y":22, "width":130, "height":100, "mouseEnabled":false, "mouseChildren":false}' />
 		<list name="list" properties='{"x":1, "y":23, "columnCount":1, "rowCount":999, "verticalGap":1}' />
 		<scrollBar name="listVSB" target="list" properties='{"x":114, "y":23, "styleName":"vScrollBar1", "size":98, "disArea":{"x":1, "y":23, "width":128, "height":98}}' />
@@ -24,6 +27,6 @@
 	
 	
 	<comboBoxItemRenderer properties='{"skin":"skin.ComboBox$ListItem", "width":128, "height":20}' >
-		<label name="labelText" properties='{"x":1, "y":2, "width":114, "color":"0x333333", "autoTooltip":false, "mouseEnabled":false, "stroke":"none"}' />
+		<label name="labelText" properties='{"x":1, "y":2, "width":114, "color":"0x333333", "autoTooltip":false, "mouseEnabled":false}' />
 	</comboBoxItemRenderer>
 </config>
