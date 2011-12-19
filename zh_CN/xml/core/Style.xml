@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!--组件样式配置文件-->
 <config>
 	<!--文本的默认样式-->
@@ -63,7 +63,7 @@
 		"labelPaddingBottom"	: 4,
 		"labelPaddingLeft"		: 5,
 		"labelPaddingRight"		: 4,
-		"labelStyle"			: {"color":"0xFFFFFF"}
+		"labelStyle"			: {"color":"0x333333"}
 	}' />
 	
 	<!--弹出提示框默认样式-->
