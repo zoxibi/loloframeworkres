@@ -9,7 +9,7 @@
 	<inputText name="usernameIT" properties='{"x":67, "y":48, "width":155, "height":20, "size":14, "border":true, "color":"0x0"}' />
 	<inputText name="passwordIT" properties='{"x":67, "y":78, "width":155, "height":20, "size":14, "border":true, "color":"0x0", "displayAsPassword":true}' />
 	<button name="connBtn" properties='{"x":202, "y":108, "width":20, "styleName":"button1", "label":">"}' />
-	<group name="typeGroup" />
+	<itemGroup name="typeGroup" />
 	<radioButton group="typeGroup" properties='{"x":67, "y":139, "styleName":"radioButton1", "label":"SOCKET", "data":"socket", "labelProp":{"stroke":"0x302010"}}' />
 	<radioButton group="typeGroup" properties='{"x":147, "y":139, "styleName":"radioButton1", "label":"HTTP", "data":"http", "labelProp":{"stroke":"0x302010"}}' />
 	<button name="registerBtn" properties='{"x":115, "y":173, "width":50, "styleName":"button1", "label":"注册"}' />
