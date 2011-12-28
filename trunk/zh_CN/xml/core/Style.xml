@@ -76,7 +76,7 @@
 		"maxWidth"	: 200,
 		"maxHeight"	: 120,
 		
-		"labelProp"			: {"color":"0xFFFFFF", "multiline":true},
+		"labelProp"			: {"color":"0x333333", "multiline":true},
 		"labelPaddingLeft"	: 10,
 		"labelPaddingRight"	: 10,
 		"labelPaddingTop"	: 20,
