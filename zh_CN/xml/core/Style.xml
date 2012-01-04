@@ -89,6 +89,15 @@
 		"buttonPaddingBottom"	: 10
 	}' />
 	
+	<!--窗口的默认样式-->
+	<style name="window" style='{
+		"background"		: "skin.Window$bg",
+		"backgroundProp"	: {"width":200, "height":100},
+		"tabBtnGroupProp"	: {"x":10, "y":10, "layout":"horizontal", "horizontalGap":5},
+		"tabBtnDefaultProp"	: {"styleName":"button1"},
+		"closeBtnProp"		: {"skin":"skin.CloseBtn", "x":170, "y":10}
+	}' />
+	
 	<!--按钮1-->
 	<style name="button1" style='{
 		"skin"			: "skin.Button1",
