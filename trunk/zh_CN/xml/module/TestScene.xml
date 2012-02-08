@@ -30,4 +30,10 @@
 	<comboBoxItemRenderer properties='{"skin":"skin.ComboBox$ListItem", "width":98, "height":20}' >
 		<label name="labelText" properties='{"x":1, "y":2, "width":84, "color":"0x333333", "autoTooltip":false, "mouseEnabled":false, "stroke":"none"}' />
 	</comboBoxItemRenderer>
+	
+	<mcLabel properties='{
+		"x":100, "y":450,
+		"labelProp":{"font":"微软雅黑", "size":20, "bold":true},
+		"multiColor":"TestMultiColor2", "stroke":"0x302010", "text":"测试动画渲染"
+	}' />
 </config>
