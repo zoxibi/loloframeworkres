@@ -6,6 +6,7 @@
 	<language url="assets/{resVersion}/xml/core/Language" version="1" /><!--语言包-->
 	<style url="assets/{resVersion}/xml/core/Style.xml" version="1" /><!--组件样式配置文件-->
 	<uiConfig url="assets/{resVersion}/xml/core/UIConfig.xml" version="1" /><!--用户界面配置文件-->
+	<soundConfig url="assets/{resVersion}/xml/core/SoundConfig.xml" version="1" /><!--音频配置文件-->
 	
 	<enterMovie url="assets/{resVersion}/swf/core/EnterMovie.swf" version="1" /><!--进场动画（开发商信息）-->
 	<component url="assets/{resVersion}/swf/core/Component.swf" version="1" /><!--组件皮肤-->

@@ -1,39 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--测试场景配置文件-->
 <config>
-	<list name="list" properties='{"x":400, "y":100, "columnCount":16, "rowCount":999, "horizontalGap":3, "verticalGap":3}' />
 	
-	<page name="page" properties='{"x":400, "y":380,
-									"firstBtnProp"	: { "width":80, "height":28, "styleName":"button1", "label":"首页" },
-									"prevBtnProp"	: { "x":90, "width":80, "height":28, "styleName":"button1", "label":"上一页" },
-									"nextBtnProp"	: { "x":210, "width":80, "height":28, "styleName":"button1", "label":"下一页" },
-									"lastBtnProp"	: { "x":300, "width":80, "height":28, "styleName":"button1", "label":"尾页" },
-									"pageTextProp"	: { "x":170, "y":6, "width":40, "height":16, "autoSize":"none", "align":"center", "color":"0xFFFFFF" }
-	}' />
-	
-	<scrollBar name="vsb" target="list" properties='{"x":800, "y":100, "styleName":"vScrollBar1", "size":100, "disArea":{"x":400, "y":100, "width":412, "height":262}}' />
-	<scrollBar name="hsb" target="list" properties='{"x":800, "y":220, "styleName":"hScrollBar1", "direction":"horizontal", "size":100, "disArea":{"x":400, "y":100, "width":412, "height":262}}' />
-	
-	
-	
-	<!--组合框-->
-	<comboBox name="cb" properties='{"x":200, "y":300, "listBGPaddingHeight":2}' >
-		<baseButton name="arrowBtn" properties='{"width":100, "skin":"skin.ComboBox$ArrowBtn"}' />
-		<inputText name="inputText" properties='{"x":3, "y":3, "width":72, "height":17, "color":"0x333333", "stroke":"none"}' />
-		<label name="labelText" properties='{"x":3, "y":3, "width":72, "autoTooltip":false, "color":"0x333333", "mouseEnabled":false, "stroke":"none"}' />
-		<displayObject name="listBG" definition="skin.ComboBox$ListBG" properties='{"y":22, "width":100, "height":80, "mouseEnabled":false, "mouseChildren":false}' />
-		<list name="list" properties='{"x":1, "y":23, "columnCount":1, "rowCount":999, "verticalGap":1}' />
-		<scrollBar name="listVSB" target="list" properties='{"x":84, "y":23, "styleName":"vScrollBar1", "size":78, "disArea":{"x":1, "y":23, "width":98, "height":78}}' />
-	</comboBox>
-	
-	
-	<comboBoxItemRenderer properties='{"skin":"skin.ComboBox$ListItem", "width":98, "height":20}' >
-		<label name="labelText" properties='{"x":1, "y":2, "width":84, "color":"0x333333", "autoTooltip":false, "mouseEnabled":false, "stroke":"none"}' />
-	</comboBoxItemRenderer>
-	
-	<mcLabel properties='{
-		"x":100, "y":450,
-		"labelProp":{"font":"微软雅黑", "size":20, "bold":true},
-		"multiColor":"TestMultiColor2", "stroke":"0x302010", "text":"测试动画渲染"
-	}' />
 </config>
