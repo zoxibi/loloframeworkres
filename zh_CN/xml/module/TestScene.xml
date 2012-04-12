@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--测试场景配置文件-->
 <config>
-	<container name="c" properties='{"x":1}' />
+	<displayObject name="triangle" definition="testScene.Triangle" properties='{}'/>
 </config>
