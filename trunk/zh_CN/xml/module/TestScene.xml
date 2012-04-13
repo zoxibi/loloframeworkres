@@ -2,4 +2,13 @@
 <!--测试场景配置文件-->
 <config>
 	<displayObject name="triangle" definition="testScene.Triangle" properties='{}'/>
+	
+	<button name="sndBtn" properties='{"x":400, "y":50, "width":80, "styleName":"button1", "label":"音频波普"}'/>
+	
+	<container name="soundPop" properties='{"x":400, "y":100}'>
+		<button name="effect1Btn" properties='{"styleName":"button1", "label":"效果1"}'/>
+		<button name="effect2Btn" properties='{"x":80, "styleName":"button1", "label":"效果2"}'/>
+		<button name="effect3Btn" properties='{"x":160, "styleName":"button1", "label":"效果3"}'/>
+	</container>
+	
 </config>
