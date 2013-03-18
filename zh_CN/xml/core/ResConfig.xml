@@ -1,27 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--模块配置文件-->
+<!--
+	模块配置文件
+	@url
+	@type 见Constants.RES_TYPE_xxx系列常量
+-->
 <config>
 	<version>11.01.17.1</version><!--游戏当前版本号-->
 	
 	<language url="assets/{resVersion}/xml/core/Language" version="1" /><!--语言包-->
-	<style url="assets/{resVersion}/xml/core/Style.xml" version="1" /><!--组件样式配置文件-->
-	<uiConfig url="assets/{resVersion}/xml/core/UIConfig.xml" version="1" /><!--用户界面配置文件-->
-	<soundConfig url="assets/{resVersion}/xml/core/SoundConfig.xml" version="1" /><!--音频配置文件-->
+	<style url="assets/{resVersion}/xml/core/Style.xml" type="xml" version="1" /><!--组件样式配置文件-->
+	<uiConfig url="assets/{resVersion}/xml/core/UIConfig.xml" type="xml" version="1" /><!--用户界面配置文件-->
+	<soundConfig url="assets/{resVersion}/xml/core/SoundConfig.xml" type="xml" version="1" /><!--音频配置文件-->
+	<loadingMovie url="assets/{resVersion}/swf/core/Loading.swf" type="swf" version="1" /><!--Loading动画-->
 	
-	<enterMovie url="assets/{resVersion}/swf/core/EnterMovie.swf" version="1" /><!--进场动画（开发商信息）-->
-	<component url="assets/{resVersion}/swf/core/Component.swf" version="1" /><!--组件皮肤-->
-	<game url="Game.swf" version="1" /><!--游戏核心-->
-	<mainUIConfig url="assets/{resVersion}/xml/core/MainUI.xml" version="1" /><!--核心UI配置-->
-	<mainUIView url="assets/{resVersion}/swf/core/MainUI.swf" version="1" /><!--核心UI界面-->
-	
-	<!--登录场景-->
-	<loginSceneConfig url="assets/{resVersion}/xml/module/LoginScene.xml" version="1" />
-	<loginSceneView url="assets/{resVersion}/swf/module/LoginScene.swf" version="1" />
-	<loginSceneModule url="game/module/loginScene/view/LoginScene.swf" version="1" />
+	<component url="assets/{resVersion}/swf/core/Component.swf" type="class" nameID="020101" version="1" /><!--组件皮肤-->
+	<game url="Game.swf" type="swf" nameID="020102" version="1" /><!--游戏核心-->
+	<mainUIConfig url="assets/{resVersion}/xml/core/MainUI.xml" type="xml" nameID="020103" version="1" /><!--核心UI配置-->
+	<mainUIView url="assets/{resVersion}/swf/core/MainUI.swf" type="class" nameID="020104" version="1" /><!--核心UI界面-->
+	<enterMovie url="assets/{resVersion}/swf/core/EnterMovie.swf" type="swf" nameID="020105" version="1" /><!--进场动画（开发商信息）-->
 	
 	<!--测试场景-->
-	<testSceneConfig url="assets/{resVersion}/xml/module/TestScene.xml" version="1" />
-	<testSceneView url="assets/{resVersion}/swf/module/TestScene.swf" version="1" />
-	<testSceneModule url="game/module/testScene/view/TestScene.swf" version="1" />
+	<testSceneConfig url="assets/{resVersion}/xml/module/TestScene.xml" type="xml" nameID="020201" version="1" />
+	<testSceneView url="assets/{resVersion}/swf/module/TestScene.swf" type="class" nameID="020202" version="1" />
+	<testSceneModule url="game/module/testScene/view/TestScene.swf" type="class" nameID="020203" version="1" />
 	
+	<!--登录场景-->
+	<loginSceneConfig url="assets/{resVersion}/xml/module/LoginScene.xml" type="xml" nameID="020204" version="1" />
+	<loginSceneView url="assets/{resVersion}/swf/module/LoginScene.swf" type="class" nameID="020205" version="1" />
+	<loginSceneModule url="game/module/loginScene/view/LoginScene.swf" type="class" nameID="020206" version="1" />
+	
+	
+	<background url="assets/{resVersion}/img/background/{0}.jpg" /><!--背景图-->
 </config>
